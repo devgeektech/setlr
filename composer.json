@@ -1,0 +1,23 @@
+{
+    "name": "setlr",
+    "description": "setlr dev site",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/cleantalk-spam-protect":"dev-trunk",
+		"wpackagist-plugin/baw-login-logout-menu":"dev-trunk",
+		"wpackagist-plugin/postman-smtp":"dev-trunk",
+		"wpackagist-plugin/jquery-collapse-o-matic":"dev-trunk",
+		"wpackagist-plugin/nav-menu-roles":"dev-trunk",
+		"wpackagist-plugin/qtranslate-x":"dev-trunk",
+		"wpackagist-plugin/testimonials":"dev-trunk",
+		"wpackagist-plugin/user-role-editor":"dev-trunk",
+		"wpackagist-plugin/wp-emoji-one":"dev-trunk",
+		"wpackagist-plugin/wp-mobile-detect":"dev-trunk"
+		}
+    
+}

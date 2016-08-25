@@ -1,0 +1,30 @@
+# Thanks to: https://gist.github.com/jdbartlett/444295
+
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!composer.json
+!wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins" and "themes" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+ 
+# Ignore everything in the "plugins" directory, except the plugins you specify
+wp-content/plugins/*
+# !wp-content/plugins/my-single-file-plugin.php
+# !wp-content/plugins/my-directory-plugin/
+!wp-content/plugins/helper-dashboard/
+!wp-content/plugins/pdc-analytics/
+!wp-content/plugins/pdc-login/
+!wp-content/plugins/pdc-requestmgt/
+!wp-content/plugins/pdcgeocode/
+!wp-content/plugins/my-directory-plugin/
+!wp-content/plugins/relocaliti-chat/
+!wp-content/plugins/Setlr Email Notifications/
+!wp-content/plugins/userdashboard/
+ 
+# Ignore everything in the "themes" directory, except the themes you specify
+wp-content/themes/*
+!wp-content/themes/setlr/
